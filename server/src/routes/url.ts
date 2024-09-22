@@ -22,7 +22,6 @@ router.post('/url', async (req, res) => {
 
         return res.json({ short: id })
     } catch(e) {
-        console.log(e);
         res.status(400).json({ error: 'Invalid Url' });
     }
 });
