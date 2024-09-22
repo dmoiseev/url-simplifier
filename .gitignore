@@ -1,0 +1,13 @@
+.idea
+.vscode
+node_modules
+.env
+*.log
+dist
+.nyc_output
+coverage
+dist-source-maps
+.DS_Store
+.npmrc
+.turbo
+.npm
